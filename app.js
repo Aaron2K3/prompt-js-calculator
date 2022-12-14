@@ -17,7 +17,7 @@ const calculate = (n1, op, n2) => {
 const initInput = () => {
   const firstNumber = parseFloat(prompt("Enter your first number: "));
   const secondNumber = parseFloat(prompt("Enter your second number: "));
-  const operator = prompt("Enter your operator of choice: ");
+  const operator = prompt("Please enter your operator of choice: ");
 
   document.getElementById(
     "display"
